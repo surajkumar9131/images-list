@@ -1,0 +1,8 @@
+<div id="photos">
+  <img
+    *ngFor="let item of images; let i = index"
+    src="{{ item.url }}"
+    (click)="goToImageUrl(item)"
+    [ngClass]="{ active: activeImage === i }"
+  />
+</div>

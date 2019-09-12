@@ -1,0 +1,29 @@
+.login-content {
+  padding: 25px;
+  & > .login {
+    display: flex;
+    flex-flow: column;
+    margin-top: 42px;
+    & > input {
+      width: 350px;
+      border: 1px solid #ff7f00;
+      text-align: left;
+      padding: 16px;
+      outline: none;
+      font-size: 16px;
+      margin-bottom: 32px;
+    }
+    & > button {
+      background: #ff7f00;
+      box-shadow: 0px 2px 2px #00000029;
+      text-align: center;
+      color: #ffffff;
+      padding: 16px;
+      outline: none;
+      font-size: 16px;
+      margin-bottom: 32px;
+      width: 382px;
+      cursor: pointer;
+    }
+  }
+}
